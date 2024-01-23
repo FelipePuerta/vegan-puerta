@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+/* DIV CONTAINER */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.5rem 6rem;
+}
+
+/* NAVBAR */
+.nav-list ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* LOGO */
+.logo {
+    display: flex;
+    width: 217px;
+    height: 217px;
+    margin: 0 auto;
+}
+
+/* SEARCH AREA */
+
+.search-area {
+    padding: 20px;
+    border-radius: 30px;
+    background: #E9EDF3;
+    border: 1px;
+    width: 305px
+    
+}
+
+
+
+
+
+
+
+

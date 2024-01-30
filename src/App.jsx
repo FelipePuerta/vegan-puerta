@@ -1,12 +1,18 @@
 import "./App.css";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Pills from "./components/Pills";
+import ItemCount from "./components/ItemCount";
+import { useState } from "react";
+import Header from "./components/Header/index"
+import Hero from "./components/Hero/index"
 
 export default function App() {
+  const [count, setCount] = useState(0)
+
+  
   return <main>
-    <Header />
-    <Hero texto="Aqui vai o Hero Image"/>
-    <Pills texto="Aqui vai as Pills" />
+   <ItemCount stock={15} count={count} setCount={setCount} />
+    
   </main>;
 }
+
+  //<Header />
+  //<Hero />

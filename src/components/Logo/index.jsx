@@ -7,7 +7,7 @@ export default function Logo() {
 
     return (
         <div>    
-            <img className="logo" src={Imagem} alt="Logo" title="logo" />
+            <img className="flex items-center flex-1" src={Imagem} alt="Logo" title="logo" />
         </div>
     )
 }

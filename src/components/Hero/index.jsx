@@ -1,12 +1,14 @@
 import "../style.css"
-//1. Receber a props como parâmetro
-export default function Hero(props) {
-  
-    //2. Passar no conteudo o uso da props
-    // Obs*: Usar o mesmo nome da props passado na chamada.
+import HeroImage from "../img/hero.png"
+
+export default function Hero() {
     return (
-      <section className="hero">  
-        <h1>{ props.texto }</h1>
+
+      <section className="h-10vh flex justify-center z-50 lg:py-10 px-20 py-4">
+        <div className="flex">
+          <img className="rounded-lg" src={HeroImage} alt="hero" title="Hero-Image"></img>
+        </div>
+
       </section>
-  )
+    )
 }

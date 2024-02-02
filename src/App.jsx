@@ -1,15 +1,20 @@
-import ItemCard from "./components/ItemCard/index";
+import { BrowserRouter } from 'react-router-dom'
+import Router from "./router/index.jsx";
 
 
-export default function App() {
+function App() {
+
+    return (
+      
+          <BrowserRouter>
+            <Router />
+          </BrowserRouter>
+        
+    )
   
-
-  
-  return <main>
-    <ItemCard></ItemCard>
-    
-  </main>;
 }
+
+export default App;
 
   //<Header />
   //<Hero />

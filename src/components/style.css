@@ -20,10 +20,15 @@
     background: #E9EDF3;
     border: none;  
     height: 51px;
+    width: 300px;
 }
 
 .border {
     border: 1px solid red;
+}
+
+.imagem {
+    height: 650px;
 }
 
 

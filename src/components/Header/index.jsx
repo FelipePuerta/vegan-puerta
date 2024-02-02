@@ -6,7 +6,7 @@ export default function Header() {
     return (
     <header>  
 
-        <div className=""> 
+        <div className="rounded-b-lg bg-white"> 
             <Navbar></Navbar>
         </div>
 

@@ -11,7 +11,7 @@ export default function Search({ placeholder }) {
     const [searchParams, setSearchParams] = useSearchParams()
 
     function handleClick() {
-        setSearchParams({search: search})
+        setSearchParams({ search: search })
         setSearch('')
     }
 
@@ -24,17 +24,17 @@ export default function Search({ placeholder }) {
                 placeholder={placeholder}
                 value={search} onChange={event => setSearch(event.target.value)}
                 onKeyDown={(e) => e.key === "Enter" && handleClick()}
-                
+
             />
             <div className="relative">
-                <FeatherIcon 
-                className="absolute top-[-16px] right-2 py-1 px-4 box-content cursor-pointer"
-                icon="search"
-                onClick={handleClick}>
-                    
+                <FeatherIcon
+                    className="absolute top-[-16px] right-2 py-1 px-4 box-content cursor-pointer"
+                    icon="search"
+                    onClick={handleClick}>
+
                 </FeatherIcon>
             </div>
-            
+
         </div>
     )
 }

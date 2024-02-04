@@ -4,17 +4,17 @@ import Router from "./router/index.jsx";
 
 function App() {
 
-    return (
-      
-          <BrowserRouter>
-            <Router />
-          </BrowserRouter>
-        
-    )
-  
+  return (
+
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
+
+  )
+
 }
 
 export default App;
 
-  //<Header />
-  //<Hero />
+//<Header />
+//<Hero />
